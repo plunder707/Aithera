@@ -19,7 +19,6 @@ Global Accessibility: The game is planned to support 46 languages for a truly ma
 Harnessing AI for Asset Creation and World Building 🤖
 Aitheria plans to utilize two AI models, BLOOM and ChatGPT-2, to create a rich and dynamic game world. BLOOM, with its cultural and linguistic expertise, is envisioned to create deep characters, engaging storylines, and a rich game world. ChatGPT-2, known for its ability to generate human-like text, is planned to be used to balance the game mechanics and orchestrate the player-driven economy.
 
-For example, when creating a character, BLOOM is envisioned to generate a background story and characteristics, while ChatGPT-2 ensures that the character's abilities are balanced. Similarly, BLOOM can create detailed and culturally rich environments, while ChatGPT-2 adds realism and ensures that the environments are balanced in terms of resources and challenges.
 
 Getting Involved 🚀
 As Aitheria is in the early stages of development, contributions and ideas are welcome! Whether you're a developer, a writer, a designer, or an enthusiast, your input can help shape the world of Aitheria.
@@ -27,13 +26,8 @@ As Aitheria is in the early stages of development, contributions and ideas are w
 Contributing 🤝
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-License 📄
-Distributed under the MIT License. See LICENSE for more information.
+
+Distributed under the GPL License. See LICENSE for more information.
 
 Contact 📬
 Andrew Gracey - gracey_andrew@yahoo.com
@@ -46,3 +40,36 @@ Aitheria is born out of a passion for creating a gaming experience that is not j
 Join us in this journey as we embark on the creation of a world that’s bound only by the limits of imagination.
 
 Note: As Aitheria is in its early stages, the features and integrations mentioned are part of the vision for the game. They represent what we aim to achieve as the development progresses. We welcome contributors and enthusiasts to be a part of this exciting journey.
+
+
+Aitheria: Art Creation Process Using DCGAN and Stable Diffusion
+In Aitheria, we aim to create visually stunning 16-bit graphics that capture the essence of our fantasy world. To achieve this, we will be using a combination of Deep Convolutional Generative Adversarial Networks (DCGANs), Stable Diffusion, and manual editing tools like Photoshop or Firefly. Below is the step-by-step process we will follow to create the art assets for Aitheria:
+
+Step 1: Initial Training of DCGAN
+We will start by training a DCGAN on a dataset of existing 16-bit art assets. This initial training will help the DCGAN learn the basic characteristics of 16-bit art.
+Step 2: Generating Preliminary Art Assets
+Using the trained DCGAN, we will generate a set of preliminary art assets for the game. These assets will serve as the base for further refinement.
+Step 3: Manual Refinement
+We will import the generated art assets into a manual editing tool like Photoshop or Firefly.
+Our artists will then refine these assets, adding details and ensuring that they align with the game’s aesthetic and thematic elements.
+Step 4: Fine-Tuning the DCGAN
+The manually refined assets will be used as additional training data to fine-tune the DCGAN.
+This fine-tuning process will help the DCGAN learn the nuances and details that were added manually, aligning its generation process more closely with the desired style and quality.
+Step 5: Iterative Fine-Tuning (Optional)
+We can repeat steps 2 to 4 in an iterative manner. Each iteration should improve the DCGAN's ability to generate assets that are closer to the desired look and feel for the game.
+Step 6: Applying Stable Diffusion
+After generating assets with the fine-tuned DCGAN, we will use Stable Diffusion for additional refinement.
+Stable Diffusion will be applied to add detailed textures and effects to the assets, enhancing their visual quality.
+Step 7: Integration into the Game
+The final art assets will be integrated into the game using the Unity game engine.
+These assets will include characters, environments, items, and other graphical elements.
+Step 8: Playtesting and Feedback Loop
+We will establish a feedback loop through playtesting.
+Player feedback and observations will be used to make further manual edits and fine-tune the DCGAN as needed.
+Step 9: Final Integration
+The final refined assets will be integrated back into the game.
+This step concludes the art creation process, and the assets are now ready for release.
+By following this process, we aim to create a rich and immersive 16-bit visual experience for Aitheria. The combination of AI generation, manual editing, and player feedback will ensure that our art assets are not only high-quality but also deeply aligned with the world we are building.
+
+For example, when creating a character, BLOOM is envisioned to generate a background story and characteristics, while ChatGPT-2 ensures that the character's abilities are balanced. Similarly, BLOOM can create detailed and culturally rich environments, while ChatGPT-2 adds realism and ensures that the environments are balanced in terms of resources and challenges.
+
